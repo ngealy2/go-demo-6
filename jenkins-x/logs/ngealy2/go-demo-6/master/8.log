@@ -1,0 +1,48 @@
+
+Showing logs for build [32mmeta-ngealy2-go-demo-6-master-7cmwv-8[0m stage [32mmeta-pipeline[0m and container [32mstep-credential-initializer-r9nnf[0m
+{"level":"warn","ts":1582059026.8205223,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1582059026.8209476,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+
+Showing logs for build [32mmeta-ngealy2-go-demo-6-master-7cmwv-8[0m stage [32mmeta-pipeline[0m and container [32mstep-working-dir-initializer-t7jsf[0m
+{"level":"warn","ts":1582059028.0833187,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1582059028.0867412,"logger":"fallback-logger","caller":"bash/main.go:64","msg":"Successfully executed command \"sh -c mkdir -p /workspace/source\"; output "}
+
+Showing logs for build [32mmeta-ngealy2-go-demo-6-master-7cmwv-8[0m stage [32mmeta-pipeline[0m and container [32mstep-place-tools[0m
+
+Showing logs for build [32mmeta-ngealy2-go-demo-6-master-7cmwv-8[0m stage [32mmeta-pipeline[0m and container [32mstep-git-source-meta-ngealy2-go-demo-6-master-7cmwv-2qpb6[0m
+{"level":"warn","ts":1582059034.0764651,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1582059034.4031508,"logger":"fallback-logger","caller":"git/git.go:103","msg":"Successfully cloned https://github.com/*******/go-demo-6.git @ 8438b7aa842dce8dbd2ac3c364779f7be46cdb04 in path /workspace/source"}
+
+Showing logs for build [32mmeta-ngealy2-go-demo-6-master-7cmwv-8[0m stage [32mmeta-pipeline[0m and container [32mstep-git-merge[0m
+Unable to retrieve container logs for docker://64c864308780c4898489c3c24eaf54f756524b1c5895435f3d70420052b0657c
+
+Showing logs for build [32mmeta-ngealy2-go-demo-6-master-7cmwv-8[0m stage [32mmeta-pipeline[0m and container [32mstep-merge-pull-refs[0m
+Unable to retrieve container logs for docker://c839cc096b7f1e63fe8b965a8af1b25ce1945477b26d558c891a2becf9ea1973
+
+Showing logs for build [32mmeta-ngealy2-go-demo-6-master-7cmwv-8[0m stage [32mmeta-pipeline[0m and container [32mstep-create-effective-pipeline[0m
+Unable to retrieve container logs for docker://5bab42b908859aaa48d981ca53e7779c58e37e30450f4d7afdec768224452cb7
+[31m
+Pipeline failed on stage 'meta-pipeline' : container 'step-create-effective-pipeline'. The execution of the pipeline has stopped.[0m
+
+Showing logs for build [32mmeta-ngealy2-go-demo-6-master-7cmwv-8[0m stage [32mmeta-pipeline[0m and container [32mstep-credential-initializer-r9nnf[0m
+Unable to retrieve container logs for docker://d2a20c835ae869e21f4020b81d691b7a66851dcc48abb6409502b2340187e3db
+
+Showing logs for build [32mmeta-ngealy2-go-demo-6-master-7cmwv-8[0m stage [32mmeta-pipeline[0m and container [32mstep-working-dir-initializer-t7jsf[0m
+Unable to retrieve container logs for docker://90e678c617395afa2ce6279ddd06fbe464ba8b1799831d983ca3114e5e2a6d51
+
+Showing logs for build [32mmeta-ngealy2-go-demo-6-master-7cmwv-8[0m stage [32mmeta-pipeline[0m and container [32mstep-place-tools[0m
+Unable to retrieve container logs for docker://02ed033e80000aaed7cebc1b3d11b1685277456fedaae7bd05a86cf5ae79a519
+
+Showing logs for build [32mmeta-ngealy2-go-demo-6-master-7cmwv-8[0m stage [32mmeta-pipeline[0m and container [32mstep-git-source-meta-ngealy2-go-demo-6-master-7cmwv-2qpb6[0m
+Unable to retrieve container logs for docker://d68bdb98bd1cf5729cfb9c95bda6c29ee945f5c0117c0f642a43bf22a7504e3d
+
+Showing logs for build [32mmeta-ngealy2-go-demo-6-master-7cmwv-8[0m stage [32mmeta-pipeline[0m and container [32mstep-git-merge[0m
+Unable to retrieve container logs for docker://64c864308780c4898489c3c24eaf54f756524b1c5895435f3d70420052b0657c
+
+Showing logs for build [32mmeta-ngealy2-go-demo-6-master-7cmwv-8[0m stage [32mmeta-pipeline[0m and container [32mstep-merge-pull-refs[0m
+Unable to retrieve container logs for docker://c839cc096b7f1e63fe8b965a8af1b25ce1945477b26d558c891a2becf9ea1973
+
+Showing logs for build [32mmeta-ngealy2-go-demo-6-master-7cmwv-8[0m stage [32mmeta-pipeline[0m and container [32mstep-create-effective-pipeline[0m
+Unable to retrieve container logs for docker://5bab42b908859aaa48d981ca53e7779c58e37e30450f4d7afdec768224452cb7
+[31m
+Pipeline failed on stage 'meta-pipeline' : container 'step-create-effective-pipeline'. The execution of the pipeline has stopped.[0m
